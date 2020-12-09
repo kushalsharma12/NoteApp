@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/todo"
+            android:icon="@drawable/nav_to_do_icon"
+            android:title="To-do " />
+
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+    <item android:id="@+id/send"
+        android:icon="@color/cardview_shadow_end_color"
+        android:title="Share"
+        />
+
+        </menu>
+
+
+    </item>
+
+</menu>
